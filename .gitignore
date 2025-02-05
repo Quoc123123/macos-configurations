@@ -1,0 +1,107 @@
+
+.CFUserTextEncoding
+.DS_Store
+.STM32CubeProgrammer/
+.Trash/
+.android/
+.anydesk/
+.arduinoIDE/
+.aws/
+.bash_history
+.bash_profile
+.bash_safe_source
+.bashmatic/
+.cache/
+.cmake/
+.conda/
+.config/.mono/
+.config/QtProject/
+.config/croc/
+.config/htop/
+.config/iterm2/
+.config/nix/
+.config/nvim/
+.config/pip/
+.config/raycast/
+.config/zed/
+.cortex-debug
+.digilent_dvctbl.txt
+.docker/
+.dotfiles/
+.eclipse/
+.espressif/
+.gemrc
+.gitconfig
+.gitconfig.local
+.gk/
+.gradle/
+.irbrc
+.lesshst
+.local/
+.matplotlib/
+.nix-profile
+.node-red/
+.npm/
+.nrfconnect-apps/
+.nxp/
+.oh-my-zsh/
+.platformio/
+.profile
+.python_history
+.redhat/
+.repo_.gitconfig.json
+.repoconfig/
+.rye/
+.serverless/
+.serverlessrc
+.ssh/
+.stm32cubeide/
+.stm32cubemx/
+.stmcube/
+.stmcufinder/
+.tmux/
+.vim/
+.viminfo
+.vimrc
+.vnc/
+.vscode/
+.warp/
+.zcompdump
+".zcompdump-Qu\341\273\221c\342\200\231s MacBook Pro-5.9"
+".zcompdump-Qu\341\273\221c\342\200\231s MacBook Pro-5.9.192.168.1.29.27358"
+".zcompdump-Qu\341\273\221c\342\200\231s MacBook Pro-5.9.192.168.1.29.85227"
+".zcompdump-Qu\341\273\221c\342\200\231s MacBook Pro-5.9.192.168.1.3.62114"
+".zcompdump-Qu\341\273\221c\342\200\231s MacBook Pro-5.9.192.168.1.41.75365"
+".zcompdump-Qu\341\273\221c\342\200\231s MacBook Pro-5.9.192.168.1.64.88976"
+".zcompdump-Qu\341\273\221c\342\200\231s MacBook Pro-5.9.192.168.1.64.89032"
+".zcompdump-Qu\341\273\221c\342\200\231s MacBook Pro-5.9.192.168.1.94.18282"
+".zcompdump-Qu\341\273\221c\342\200\231s MacBook Pro-5.9.192.168.1.94.36651"
+".zcompdump-Qu\341\273\221c\342\200\231s MacBook Pro-5.9.192.168.1.94.58437"
+".zcompdump-Qu\341\273\221c\342\200\231s MacBook Pro-5.9.192.168.1.94.71527"
+".zcompdump-Qu\341\273\221c\342\200\231s MacBook Pro-5.9.192.168.1.94.98592"
+".zcompdump-Qu\341\273\221c\342\200\231s MacBook Pro-5.9.Quocs-MacBook-Pro.local.63139"
+.zsh/
+.zsh_history
+.zsh_sessions/
+Applications/
+Desktop/
+Dockerfile
+Documents/
+Downloads/
+Google Drive
+Library/
+Movies/
+Music/
+OneDrive
+Pictures/
+Resources/
+STM32Cube/
+STM32CubeIDE/
+Screen Studio Projects/
+ShareMouse/
+Virtual Machines.localized/
+fonts/
+minicom.log
+team-time/
+
+*.zcompdump-*
