@@ -153,9 +153,12 @@ alias gtemp="ga . && gcmsg 'temp' "
 alias gtempa="ga . && gc!"
 
 ##############################################
-# Miscellaneous
+# Tmux
 ##############################################
-alias reload='source ~/.zshrc'
+# Tmux auto start
+# if command -v tmux &> /dev/null; then
+#   [ -z "$TMUX" ] && exec tmux
+# fi
 
 ##############################################
 # Set up fzf key bindings and fuzzy completion
@@ -166,11 +169,13 @@ alias -g f=fzf
 alias fp='fzf --preview "bat --color=always {}"'
 
 
-
-# Tmux auto start
-# if command -v tmux &> /dev/null; then
-#   [ -z "$TMUX" ] && exec tmux
-# fi
+##############################################
+# Miscellaneous
+##############################################
+alias ss='source ~/.zshrc'
+alias os='code ~/.zshrc'
+alias gws='cd ~/Resources/Workspace/ && echo ${PWD}'
+alias gusr='cd /Users/quocbui'
 
 
 # Show only the current directory's name:
