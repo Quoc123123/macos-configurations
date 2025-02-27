@@ -161,3 +161,27 @@ alt-shift-j = ['join-with down', 'mode main']
 alt-shift-k = ['join-with up', 'mode main']
 alt-shift-l = ['join-with right', 'mode main']
 
+
+[[on-window-detected]]
+if.app-id = 'dev.warp.Warp-Stable'
+run = "move-node-to-workspace C"
+
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome'
+run = "move-node-to-workspace B"
+
+[[on-window-detected]]
+if.app-id = 'com.apple.finder'
+run = "move-node-to-workspace D"
+
+[[on-window-detected]]
+if.app-id = 'notion.id'
+run = "move-node-to-workspace N"
+
+#which work space is on which monitor
+[workspace-to-monitor-force-assignment]
+W = 1 
+C = 'main'
+D = 'secondary'
+S = 'main'
