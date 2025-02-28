@@ -194,10 +194,11 @@ run = "move-node-to-workspace R"
 
 #which work space is on which monitor
 [workspace-to-monitor-force-assignment]
+A = 3
+B = 3
 C = 'main'
 D = 3
 T = 'built-in'
 N = 'built-in'
-B = 3
 R = 3
 
