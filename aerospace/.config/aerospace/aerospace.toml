@@ -199,7 +199,7 @@ run = "move-node-to-workspace N"
 
 [[on-window-detected]]
 if.app-id = 'com.foxitsoftware.FoxitReaderLite'
-run = "move-node-to-workspace R"
+run = "move-node-to-workspace D"
 
 [[on-window-detected]]
 if.app-id = 'com.apple.Preview'
