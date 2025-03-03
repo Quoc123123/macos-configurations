@@ -181,6 +181,19 @@ if.app-id = 'com.apple.finder'
 run = "move-node-to-workspace D"
 
 [[on-window-detected]]
+if.app-id = 'com.microsoft.Word'
+run = "move-node-to-workspace D"
+
+[[on-window-detected]]
+if.app-id = 'com.microsoft.Powerpoint'
+run = "move-node-to-workspace D"
+
+[[on-window-detected]]
+if.app-id = 'com.microsoft.Excel'
+run = "move-node-to-workspace D"    
+
+
+[[on-window-detected]]
 if.app-id = 'notion.id'
 run = "move-node-to-workspace N"
 
@@ -215,6 +228,8 @@ run = "move-node-to-workspace W"
 [[on-window-detected]]
 if.app-id =  'com.microsoft.Outlook'
 run = "move-node-to-workspace W"
+
+
 
 #which work space is on which monitor
 [workspace-to-monitor-force-assignment]
