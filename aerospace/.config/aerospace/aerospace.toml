@@ -213,7 +213,7 @@ run = "move-node-to-workspace W"
 
 [[on-window-detected]]
 if.app-id = 'com.segger.JLinkRTTViewer.V794e'
-run = "move-node-to-workspace W"
+run = "move-node-to-workspace A"
 
 [[on-window-detected]]
 if.app-id = 'com.hnc.Discord'
