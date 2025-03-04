@@ -231,6 +231,10 @@ run = "move-node-to-workspace W"
 if.app-id = 'com.teamviewer.TeamViewer'
 run = "move-node-to-workspace V"
 
+[[on-window-detected]]
+if.app-id = 'org.qt-project.qtcreator'
+run = "move-node-to-workspace A"
+
 #which work space is on which monitor
 [workspace-to-monitor-force-assignment]
 A = 3
