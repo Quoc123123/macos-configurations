@@ -117,7 +117,7 @@ alt-m = 'workspace M' # Music!
 alt-n = 'workspace N' # NOTE
 alt-s = 'workspace S' # Setting
 alt-t = 'workspace T' # Terminal
-alt-v = 'workspace V' # Edit Video
+alt-v = 'workspace V' # Edit Video, Teamviewer, Anydesk,...
 alt-w = 'workspace W' # Work: Slack, ggmeet, discord,...
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
@@ -227,7 +227,9 @@ run = "move-node-to-workspace W"
 if.app-id =  'com.microsoft.Outlook'
 run = "move-node-to-workspace W"
 
-
+[[on-window-detected]]
+if.app-id = 'com.teamviewer.TeamViewer'
+run = "move-node-to-workspace V"
 
 #which work space is on which monitor
 [workspace-to-monitor-force-assignment]
@@ -238,5 +240,5 @@ D = 3
 T = 'built-in'
 N = 'built-in'
 W = 'built-in'
-
+V = 3
 
