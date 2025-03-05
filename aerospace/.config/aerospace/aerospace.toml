@@ -105,14 +105,14 @@ alt-shift-minus = 'resize smart -50'
 alt-shift-equal = 'resize smart +50'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
-alt-1 = 'workspace 1'
+alt-1 = 'workspace 1' # RTT Viewer
 alt-2 = 'workspace 2'
 alt-3 = 'workspace 3'
 alt-a = 'workspace A' # Any: Docker, Postman,... 
 alt-b = 'workspace B' # Browser
 alt-c = 'workspace C' # Coding
 alt-d = 'workspace D' # Document/Finder
-alt-g = 'workspace G' # Game
+alt-g = 'workspace G' # Tools: Saleae, QT, Docker,...
 alt-m = 'workspace M' # Music!
 alt-n = 'workspace N' # NOTE
 alt-s = 'workspace S' # Setting
@@ -190,7 +190,6 @@ run = "move-node-to-workspace D"
 if.app-id = 'com.microsoft.Excel'
 run = "move-node-to-workspace D"    
 
-
 [[on-window-detected]]
 if.app-id = 'notion.id'
 run = "move-node-to-workspace N"
@@ -213,7 +212,7 @@ run = "move-node-to-workspace W"
 
 [[on-window-detected]]
 if.app-id = 'com.segger.JLinkRTTViewer.V794e'
-run = "move-node-to-workspace A"
+run = "move-node-to-workspace 1"
 
 [[on-window-detected]]
 if.app-id = 'com.hnc.Discord'
@@ -233,20 +232,20 @@ run = "move-node-to-workspace V"
 
 [[on-window-detected]]
 if.app-id = 'org.qt-project.qtcreator'
-run = "move-node-to-workspace A"
+run = "move-node-to-workspace G"
 
 [[on-window-detected]]
 if.app-id = 'com.electron.dockerdesktop'
-run = "move-node-to-workspace A"
+run = "move-node-to-workspace G"
 
 [[on-window-detected]]
 if.app-id = 'com.saleae.saleae'
-run = "move-node-to-workspace A"
+run = "move-node-to-workspace G"
 
 
 #which work space is on which monitor
 [workspace-to-monitor-force-assignment]
-A = 3
+A = 'built-in'
 B = 3
 C = 'main'
 D = 3
@@ -254,4 +253,5 @@ T = 'built-in'
 N = 'built-in'
 W = 'built-in'
 V = 3
+1 = 'built-in'
 
