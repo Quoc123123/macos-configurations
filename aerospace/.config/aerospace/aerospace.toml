@@ -235,6 +235,10 @@ run = "move-node-to-workspace V"
 if.app-id = 'org.qt-project.qtcreator'
 run = "move-node-to-workspace A"
 
+[[on-window-detected]]
+if.app-id = 'com.electron.dockerdesktop'
+run = "move-node-to-workspace A"
+
 #which work space is on which monitor
 [workspace-to-monitor-force-assignment]
 A = 3
