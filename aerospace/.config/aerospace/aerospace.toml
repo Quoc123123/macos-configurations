@@ -242,6 +242,10 @@ run = "move-node-to-workspace G"
 if.app-id = 'com.saleae.saleae'
 run = "move-node-to-workspace G"
 
+[[on-window-detected]]
+if.app-id = 'net.java.openjdk.java'
+run = "move-node-to-workspace G"
+
 
 #which work space is on which monitor
 [workspace-to-monitor-force-assignment]
