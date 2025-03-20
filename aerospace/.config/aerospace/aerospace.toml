@@ -258,6 +258,9 @@ run = "move-node-to-workspace G"
 if.app-id = 'com.nordicsemi.nrfconnect'
 run = "move-node-to-workspace G"
 
+[[on-window-detected]]
+if.app-id = 'com.spotify.client'
+run = "move-node-to-workspace M"
 
 #which work space is on which monitor
 [workspace-to-monitor-force-assignment]
@@ -271,4 +274,5 @@ W = 'built-in'
 V = 3
 1 = 'built-in'
 G = 3
+M = 3
 
