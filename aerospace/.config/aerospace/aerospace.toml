@@ -112,7 +112,7 @@ alt-a = 'workspace A' # Any: Docker, Postman,...
 alt-b = 'workspace B' # Browser
 alt-c = 'workspace C' # Coding
 alt-d = 'workspace D' # Document/Finder
-alt-g = 'workspace G' # Tools: Saleae, QT, Docker,...
+alt-g = 'workspace G' # Tools: Saleae, QT, Docker, ChatGPT
 alt-m = 'workspace M' # Music!
 alt-n = 'workspace N' # NOTE
 alt-s = 'workspace S' # Setting
@@ -256,6 +256,10 @@ run = "move-node-to-workspace G"
 
 [[on-window-detected]]
 if.app-id = 'com.nordicsemi.nrfconnect'
+run = "move-node-to-workspace G"
+
+[[on-window-detected]]
+if.app-id = 'com.openai.chat'
 run = "move-node-to-workspace G"
 
 [[on-window-detected]]
