@@ -207,6 +207,26 @@ if.app-id = 'com.apple.Preview'
 run = "move-node-to-workspace D"
 
 [[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.aghbiahbpaijignceidepookljebhfak' # Google Drive
+run = "move-node-to-workspace D"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.mpnpojknpmmopombnjdcgaaiekajbnjb' # Google Docs
+run = "move-node-to-workspace D"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.aghbiahbpaijignceidepookljebhfak' # Google Drive
+run = "move-node-to-workspace D"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.fhihpiojkbmbpdjeoajapmgkhlnakfjf' # Google Sheets
+run = "move-node-to-workspace D"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.kefjledonklijopmnomlcbpllchaibag' # Google Slides
+run = "move-node-to-workspace D"
+
+[[on-window-detected]]
 if.app-id = 'net.whatsapp.WhatsApp'
 run = "move-node-to-workspace W"
 
@@ -215,8 +235,16 @@ if.app-id = 'Mattermost.Desktop'
 run = "move-node-to-workspace W"
 
 [[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.abcihfkncbjpgpidlklmphbidjlcbplc' # Jira
+run = "move-node-to-workspace W"
+
+[[on-window-detected]]
 if.app-id = 'com.segger.JLinkRTTViewer.V794e'
 run = "move-node-to-workspace 1"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.edanbjnaiofggfmimiidpfmhggkbokck' # Google Translate
+run = "move-node-to-workspace 2"
 
 [[on-window-detected]]
 if.app-id = 'com.hnc.Discord'
@@ -231,11 +259,31 @@ if.app-id = 'coing.ClockifyDesktop'
 run = "move-node-to-workspace W"
 
 [[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.nnfiakkjdmchaoopmdfimedildpikmcc' # Clockify
+run = "move-node-to-workspace W"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.chpiljhfemlfpnfoohpbokdofonkiifm' # Toggl track
+run = "move-node-to-workspace W"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.ehkhpddilidkmnagompngecfcceifobk' # Upwork
+run = "move-node-to-workspace W"
+
+[[on-window-detected]]
 if.app-id = 'us.zoom.xos'
 run = "move-node-to-workspace W"
 
 [[on-window-detected]]
 if.app-id =  'com.microsoft.Outlook'
+run = "move-node-to-workspace W"
+
+[[on-window-detected]]
+if.app-id =  'com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep' # Google Calendar
+
+run = "move-node-to-workspace W"
+[[on-window-detected]]
+if.app-id =  'com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm' # Gmail
 run = "move-node-to-workspace W"
 
 [[on-window-detected]]
@@ -272,6 +320,10 @@ run = "move-node-to-workspace G"
 
 [[on-window-detected]]
 if.app-id = 'com.spotify.client'
+run = "move-node-to-workspace M"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.cinhimbnkkaeohfgghhklpknlkffjgod' # Youtube Music
 run = "move-node-to-workspace M"
 
 #which work space is on which monitor
