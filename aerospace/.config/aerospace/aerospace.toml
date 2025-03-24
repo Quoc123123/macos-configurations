@@ -106,14 +106,20 @@ alt-shift-equal = 'resize smart +50'
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
 alt-1 = 'workspace 1' # RTT Viewer
-alt-2 = 'workspace 2'
-alt-3 = 'workspace 3'
+alt-2 = 'workspace 2' # Google Translate, ChatGPT
+alt-3 = 'workspace 3' # Clockify, Toggl
+alt-4 = 'workspace 4' 
+alt-5 = 'workspace 5' 
+alt-6 = 'workspace 6' 
+alt-7 = 'workspace 7' 
+alt-8 = 'workspace 8' 
+alt-9 = 'workspace 9' 
 alt-a = 'workspace A' # Any: Docker, Postman,... 
 alt-b = 'workspace B' # Browser
 alt-c = 'workspace C' # Coding
 alt-d = 'workspace D' # Document/Finder
 alt-g = 'workspace G' # Tools: Saleae, QT, Docker, ChatGPT
-alt-m = 'workspace M' # Music!
+alt-m = 'workspace M' # Music, Youtube, Spotify, Netflix,...
 alt-n = 'workspace N' # NOTE
 alt-s = 'workspace S' # Setting
 alt-t = 'workspace T' # Terminal
@@ -124,6 +130,12 @@ alt-w = 'workspace W' # Work: Slack, ggmeet, discord,...
 alt-shift-1 = 'move-node-to-workspace 1'
 alt-shift-2 = 'move-node-to-workspace 2'
 alt-shift-3 = 'move-node-to-workspace 3'
+alt-shift-4 = 'move-node-to-workspace 4'
+alt-shift-5 = 'move-node-to-workspace 5'
+alt-shift-6 = 'move-node-to-workspace 6'
+alt-shift-7 = 'move-node-to-workspace 7'
+alt-shift-8 = 'move-node-to-workspace 8'
+alt-shift-9 = 'move-node-to-workspace 9'
 alt-shift-a = 'move-node-to-workspace A'
 alt-shift-b = 'move-node-to-workspace B'
 alt-shift-c = 'move-node-to-workspace C'
@@ -226,6 +238,40 @@ run = "move-node-to-workspace D"
 if.app-id = 'com.google.Chrome.app.kefjledonklijopmnomlcbpllchaibag' # Google Slides
 run = "move-node-to-workspace D"
 
+
+[[on-window-detected]]
+if.app-id = 'com.segger.JLinkRTTViewer.V794e'
+run = "move-node-to-workspace 1"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.edanbjnaiofggfmimiidpfmhggkbokck' # Google Translate
+run = "move-node-to-workspace 2"
+
+[[on-window-detected]]
+if.app-id = 'com.openai.chat'
+run = "move-node-to-workspace 2"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.nnfiakkjdmchaoopmdfimedildpikmcc' # Clockify
+run = "move-node-to-workspace 3"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.chpiljhfemlfpnfoohpbokdofonkiifm' # Toggl track
+run = "move-node-to-workspace 3"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.ehkhpddilidkmnagompngecfcceifobk' # Upwork
+run = "move-node-to-workspace 3"
+
+[[on-window-detected]]
+if.app-id = 'com.toggl.danee'
+run = "move-node-to-workspace 3"
+
+[[on-window-detected]]
+if.app-id = 'coing.ClockifyDesktop'
+run = "move-node-to-workspace 3"
+
+
 [[on-window-detected]]
 if.app-id = 'net.whatsapp.WhatsApp'
 run = "move-node-to-workspace W"
@@ -239,36 +285,9 @@ if.app-id = 'com.google.Chrome.app.abcihfkncbjpgpidlklmphbidjlcbplc' # Jira
 run = "move-node-to-workspace W"
 
 [[on-window-detected]]
-if.app-id = 'com.segger.JLinkRTTViewer.V794e'
-run = "move-node-to-workspace 1"
-
-[[on-window-detected]]
-if.app-id = 'com.google.Chrome.app.edanbjnaiofggfmimiidpfmhggkbokck' # Google Translate
-run = "move-node-to-workspace 2"
-
-[[on-window-detected]]
 if.app-id = 'com.hnc.Discord'
 run = "move-node-to-workspace W"
 
-[[on-window-detected]]
-if.app-id = 'com.toggl.danee'
-run = "move-node-to-workspace W"
-
-[[on-window-detected]]
-if.app-id = 'coing.ClockifyDesktop'
-run = "move-node-to-workspace W"
-
-[[on-window-detected]]
-if.app-id = 'com.google.Chrome.app.nnfiakkjdmchaoopmdfimedildpikmcc' # Clockify
-run = "move-node-to-workspace W"
-
-[[on-window-detected]]
-if.app-id = 'com.google.Chrome.app.chpiljhfemlfpnfoohpbokdofonkiifm' # Toggl track
-run = "move-node-to-workspace W"
-
-[[on-window-detected]]
-if.app-id = 'com.google.Chrome.app.ehkhpddilidkmnagompngecfcceifobk' # Upwork
-run = "move-node-to-workspace W"
 
 [[on-window-detected]]
 if.app-id = 'us.zoom.xos'
@@ -318,9 +337,6 @@ run = "move-node-to-workspace G"
 if.app-id = 'com.nordicsemi.nrfconnect'
 run = "move-node-to-workspace G"
 
-[[on-window-detected]]
-if.app-id = 'com.openai.chat'
-run = "move-node-to-workspace G"
 
 [[on-window-detected]]
 if.app-id = 'com.spotify.client'
