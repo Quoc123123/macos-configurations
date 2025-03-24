@@ -280,10 +280,14 @@ run = "move-node-to-workspace W"
 
 [[on-window-detected]]
 if.app-id =  'com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep' # Google Calendar
-
 run = "move-node-to-workspace W"
+
 [[on-window-detected]]
 if.app-id =  'com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm' # Gmail
+run = "move-node-to-workspace W"
+
+[[on-window-detected]]
+if.app-id =  'com.google.Chrome.app.kjgfgldnnfoeklkmfkjfagphfepbbdan' # Google Meet
 run = "move-node-to-workspace W"
 
 [[on-window-detected]]
@@ -324,6 +328,10 @@ run = "move-node-to-workspace M"
 
 [[on-window-detected]]
 if.app-id = 'com.google.Chrome.app.cinhimbnkkaeohfgghhklpknlkffjgod' # Youtube Music
+run = "move-node-to-workspace M"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.agimnkijcaahngcdmfeangaknmldooml' # Youtube 
 run = "move-node-to-workspace M"
 
 #which work space is on which monitor
