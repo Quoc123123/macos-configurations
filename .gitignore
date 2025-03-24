@@ -105,3 +105,4 @@ minicom.log
 team-time/
 
 *.zcompdump-*
+.qodo
