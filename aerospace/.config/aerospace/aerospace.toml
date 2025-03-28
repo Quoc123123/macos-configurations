@@ -298,6 +298,10 @@ if.app-id =  'com.microsoft.Outlook'
 run = "move-node-to-workspace W"
 
 [[on-window-detected]]
+if.app-id =  'com.microsoft.teams2'
+run = "move-node-to-workspace W"
+
+[[on-window-detected]]
 if.app-id =  'com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep' # Google Calendar
 run = "move-node-to-workspace W"
 
