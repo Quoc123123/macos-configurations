@@ -118,6 +118,7 @@ alt-a = 'workspace A' # Any: Docker, Postman,...
 alt-b = 'workspace B' # Browser
 alt-c = 'workspace C' # Coding
 alt-d = 'workspace D' # Document/Finder
+alt-e = 'workspace E' # Email, Outlook
 alt-l = 'workspace L' # Clockify, Toggl
 alt-g = 'workspace G' # Tools: Saleae, QT, Docker
 alt-m = 'workspace M' # Music, Youtube, Spotify, Netflix,...
@@ -142,6 +143,7 @@ alt-shift-a = 'move-node-to-workspace A'
 alt-shift-b = 'move-node-to-workspace B'
 alt-shift-c = 'move-node-to-workspace C'
 alt-shift-d = 'move-node-to-workspace D'
+alt-shift-e = 'move-node-to-workspace E'
 alt-shift-g = 'move-node-to-workspace G'
 alt-shift-l = 'move-node-to-workspace L'
 alt-shift-m = 'move-node-to-workspace M'
@@ -231,16 +233,24 @@ if.app-id = 'com.google.Chrome.app.mpnpojknpmmopombnjdcgaaiekajbnjb' # Google Do
 run = "move-node-to-workspace D"
 
 [[on-window-detected]]
-if.app-id = 'com.google.Chrome.app.aghbiahbpaijignceidepookljebhfak' # Google Drive
-run = "move-node-to-workspace D"
-
-[[on-window-detected]]
 if.app-id = 'com.google.Chrome.app.fhihpiojkbmbpdjeoajapmgkhlnakfjf' # Google Sheets
 run = "move-node-to-workspace D"
 
 [[on-window-detected]]
 if.app-id = 'com.google.Chrome.app.kefjledonklijopmnomlcbpllchaibag' # Google Slides
 run = "move-node-to-workspace D"
+
+[[on-window-detected]]
+if.app-id =  'com.microsoft.Outlook'
+run = "move-node-to-workspace E"
+
+[[on-window-detected]]
+if.app-id =  'com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep' # Google Calendar
+run = "move-node-to-workspace E"
+
+[[on-window-detected]]
+if.app-id =  'com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm' # Gmail
+run = "move-node-to-workspace E"
 
 
 [[on-window-detected]]
@@ -264,20 +274,9 @@ run = "move-node-to-workspace W"
 if.app-id = 'us.zoom.xos'
 run = "move-node-to-workspace W"
 
-[[on-window-detected]]
-if.app-id =  'com.microsoft.Outlook'
-run = "move-node-to-workspace W"
 
 [[on-window-detected]]
 if.app-id =  'com.microsoft.teams2'
-run = "move-node-to-workspace W"
-
-[[on-window-detected]]
-if.app-id =  'com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep' # Google Calendar
-run = "move-node-to-workspace W"
-
-[[on-window-detected]]
-if.app-id =  'com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm' # Gmail
 run = "move-node-to-workspace W"
 
 
@@ -350,6 +349,7 @@ A = 3
 B = 3
 C = 'main'
 D = 3
+E = 'built-in'
 T = 'built-in'
 N = 'built-in'
 P = 3
@@ -361,4 +361,5 @@ L = 3
 1 = 'built-in'
 2 = 3
 3 = 3
+
 
