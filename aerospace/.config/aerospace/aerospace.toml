@@ -256,10 +256,6 @@ if.app-id = 'Mattermost.Desktop'
 run = "move-node-to-workspace W"
 
 [[on-window-detected]]
-if.app-id = 'com.google.Chrome.app.abcihfkncbjpgpidlklmphbidjlcbplc' # Jira
-run = "move-node-to-workspace W"
-
-[[on-window-detected]]
 if.app-id = 'com.hnc.Discord'
 run = "move-node-to-workspace W"
 
@@ -284,9 +280,6 @@ run = "move-node-to-workspace W"
 if.app-id =  'com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm' # Gmail
 run = "move-node-to-workspace W"
 
-[[on-window-detected]]
-if.app-id =  'com.google.Chrome.app.kjgfgldnnfoeklkmfkjfagphfepbbdan' # Google Meet
-run = "move-node-to-workspace W"
 
 [[on-window-detected]]
 if.app-id = 'com.teamviewer.TeamViewer'
@@ -341,9 +334,6 @@ run = "move-node-to-workspace M"
 if.app-id = 'com.google.Chrome.app.cinhimbnkkaeohfgghhklpknlkffjgod' # Youtube Music
 run = "move-node-to-workspace M"
 
-[[on-window-detected]]
-if.app-id = 'com.google.Chrome.app.agimnkijcaahngcdmfeangaknmldooml' # Youtube 
-run = "move-node-to-workspace M"
 
 
 [[on-window-detected]]
