@@ -343,11 +343,6 @@ if.app-id = 'com.google.Chrome.app.cinhimbnkkaeohfgghhklpknlkffjgod' # Youtube M
 run = "move-node-to-workspace M"
 
 
-
-[[on-window-detected]]
-if.app-id = 'com.google.Chrome.app.edanbjnaiofggfmimiidpfmhggkbokck' # Google Translate
-run = "move-node-to-workspace P"
-
 [[on-window-detected]]
 if.app-id = 'com.openai.chat'
 run = "move-node-to-workspace P"
@@ -362,12 +357,12 @@ E = 'built-in'
 T = 'built-in'
 N = 'built-in'
 P = 'built-in'
-W = 3
+W = 'built-in'
 V = 3
 G = 3
 M = 'built-in'
 L = 'built-in'
-1 = 'built-in'
+1 = 3
 2 = 3
 3 = 3
 
