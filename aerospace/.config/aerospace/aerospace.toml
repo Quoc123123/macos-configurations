@@ -294,6 +294,12 @@ if.app-id = 'com.teamviewer.TeamViewer'
 run = "move-node-to-workspace V"
 
 [[on-window-detected]]
+if.app-id = 'com.vmware.fusion'
+run = "move-node-to-workspace V"
+
+
+
+[[on-window-detected]]
 if.app-id = 'org.qt-project.qtcreator'
 run = "move-node-to-workspace G"
 
