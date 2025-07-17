@@ -11,6 +11,7 @@ export IDF_PATH=/opt/esp/esp-idf
 export NIX_BUILD_GROUP_ID=30000
 export HOMEBREW_NO_AUTO_UPDATE=1
 
+
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
@@ -224,3 +225,6 @@ export STM32CubeMX_PATH=/Applications/STMicroelectronics/STM32CubeMX.app/Content
 # Android SDK
 export ANDROID_HOME=~/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
+
+# MaximSDK make
+export PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
