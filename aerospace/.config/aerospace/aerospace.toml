@@ -365,6 +365,10 @@ run = "move-node-to-workspace P"
 if.app-id =  'com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep' # Google Calendar
 run = "move-node-to-workspace P"
 
+[[on-window-detected]]
+if.app-id = 'com.apple.systempreferences'
+run = "move-node-to-workspace S"
+
 
 #which work space is on which monitor
 [workspace-to-monitor-force-assignment]
@@ -381,6 +385,7 @@ V = 3
 G = 3
 M = 'built-in'
 L = 'built-in'
+S = 'built-in'
 1 = 3
 2 = 3
 3 = 3
