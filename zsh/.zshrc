@@ -179,6 +179,7 @@ alias ss='source ~/.zshrc'
 alias os='code ~/.zshrc'
 alias gws='cd ~/Resources/Workspace/ && echo ${PWD}'
 alias gusr='cd /Users/quocbui'
+alias src_py='source ~/.venv/bin/activate'
 
 
 # Show only the current directory's name:
