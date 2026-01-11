@@ -359,6 +359,10 @@ if.app-id = 'com.openai.chat'
 run = "move-node-to-workspace P"
 
 [[on-window-detected]]
+if.app-id = 'com.apple.shortcuts'
+run = "move-node-to-workspace P"
+
+[[on-window-detected]]
 if.app-id = 'com.anthropic.claudefordesktop'
 run = "move-node-to-workspace P"
 
