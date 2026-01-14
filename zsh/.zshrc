@@ -10,6 +10,7 @@ export IDF_PATH=/opt/esp/esp-idf
 
 export NIX_BUILD_GROUP_ID=30000
 export HOMEBREW_NO_AUTO_UPDATE=1
+export PATH="/Users/quocbui/fvm/bin:$PATH"
 
 
 # Set name of the theme to load --- if set to "random", it will
