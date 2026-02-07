@@ -182,6 +182,14 @@ alias gws='cd ~/Resources/Workspace/ && echo ${PWD}'
 alias gusr='cd /Users/quocbui'
 alias src_py='source ~/.venv/bin/activate'
 
+##############################################
+# Projects
+##############################################
+
+# Inviza
+alias build_rev1='ninja -C build/insole_rev1 all'
+alias build_rev2='ninja -C build/insole_rev2 all'
+
 
 # Show only the current directory's name:
 # Custom function to shorten the path
@@ -230,3 +238,5 @@ export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 
 # MaximSDK make
 export PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
+# Added by Antigravity
+export PATH="/Users/quocbui/.antigravity/antigravity/bin:$PATH"
