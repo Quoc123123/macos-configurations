@@ -190,6 +190,9 @@ alias src_py='source ~/.venv/bin/activate'
 alias build_rev1='ninja -C build/insole_rev1 all'
 alias build_rev2='ninja -C build/insole_rev2 all'
 
+# Crely
+alias build_gen9_1='ninja -C build/debug/Gen9_1 all'
+alias build_gen10_1='ninja -C build/debug/Gen10_1 all'
 
 # Show only the current directory's name:
 # Custom function to shorten the path
