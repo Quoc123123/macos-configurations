@@ -274,6 +274,10 @@ if.app-id = 'net.whatsapp.WhatsApp'
 run = "move-node-to-workspace W"
 
 [[on-window-detected]]
+if.app-id = 'com.vng.zalo'
+run = "move-node-to-workspace W"
+
+[[on-window-detected]]
 if.app-id = 'Mattermost.Desktop'
 run = "move-node-to-workspace W"
 
