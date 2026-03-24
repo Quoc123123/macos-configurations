@@ -1,0 +1,36 @@
+pane	Crely	1	0	:Z	1	192.168.1.203	:/Users/quocbui/Resources/Workspace/Projects/Crely/Firmware/crely/crely-main-firmware/firmware/build/debug/Gen9_1	1	zsh	:
+pane	Crely	1	0	:Z	2	192.168.1.13	:/Users/quocbui/Resources/Workspace/Projects/Crely/Firmware/crely/crely-main-firmware/firmware/build/debug/Gen10_1	0	zsh	:
+pane	Crely	2	0	:	1	192.168.1.67	:/Users/quocbui/Resources/Workspace/Projects/Crely/Firmware/crely/crely-main-firmware/firmware	1	zsh	:
+pane	Crely	3	0	:-	1	192.168.1.241	:/Users/quocbui/Resources/Workspace/Projects/Crely/Firmware/crely/crely-main-firmware/algo_ml/data_processing_pipeline	1	zsh	:
+pane	Crely	4	0	:	1	192.168.1.241	:/Users/quocbui/Resources/Workspace/Projects/Crely/Firmware/crely/crely-main-firmware/protocols	1	zsh	:
+pane	Crely	5	1	:*	1	Quocs-MacBook-Pro.local	:/Users/quocbui/Resources/Workspace/Projects/Crely/Firmware/crely/crely-main-firmware/tools/ble_data_streaming/main	1	zsh	:
+pane	Dotfiles	1	1	:*	1	Quocs-MacBook-Pro.local	:/Users/quocbui/Resources/Workspace/macos-configurations	1	zsh	:
+pane	Dotfiles	2	0	:	1	192.168.1.105	:/Users/quocbui	1	zsh	:
+pane	Dotfiles	3	0	:	1	192.168.1.4	:/Users/quocbui	1	zsh	:
+pane	Dotfiles	4	0	:-	1	192.168.1.125	:/Users/quocbui	1	zsh	:
+pane	Earable	1	1	:*	1	192.168.1.41	:/Users/quocbui	1	zsh	:
+pane	Inviza	1	0	:-	1	Quocs-MacBook-Pro.local	:/Users/quocbui/Resources/Workspace/Projects/Inviza/my-workspace/inviza-firmware-develop/firmware/build/insole_rev1	1	zsh	:
+pane	Inviza	2	0	:	1	192.168.1.242	:/Users/quocbui/Resources/Workspace/Projects/Inviza/inviza-app-develop	1	zsh	:
+pane	Inviza	3	0	:	1	192.168.1.13	:/Users/quocbui/Resources/Workspace/Projects/Inviza/inviza-protocols/build	1	zsh	:
+pane	Inviza	4	0	:	1	192.168.1.146	:/Users/quocbui/Resources/Workspace/Projects/Inviza/Android-nRF-Connect-Device-Manager	1	zsh	:
+pane	Inviza	5	0	:	1	Quocs-MacBook-Pro.local	:/Users/quocbui/Resources/Workspace/Projects/Inviza/inviza-safe-app	1	zsh	:
+pane	Inviza	6	0	:	1	192.168.1.249	:/Users/quocbui/Resources/Workspace/Projects/Inviza/my-workspace/inviza-firmware-develop/tools/ivr_util	1	zsh	:
+pane	Inviza	7	1	:*	1	Quocs-MacBook-Pro.local	:/Users/quocbui/Resources/Workspace/Projects/Inviza/ncs/ncs-serial-modem/app/build	1	zsh	:
+window	Crely	1	:build directory	0	:Z	fb42,156x47,0,0{77x47,0,0,1,78x47,78,0,2}	off
+window	Crely	2	:firmware	0	:	cac0,156x47,0,0,3	off
+window	Crely	3	:algo_ml	0	:-	cac1,156x47,0,0,4	off
+window	Crely	4	:protocols	0	:	cac2,156x47,0,0,5	off
+window	Crely	5	:tools	1	:*	cac3,156x47,0,0,6	off
+window	Dotfiles	1	:dotfiles	1	:*	cac4,156x47,0,0,7	off
+window	Dotfiles	2	:nix	0	:	cac5,156x47,0,0,8	off
+window	Dotfiles	3	:vmware-ubuntu	0	:	cac6,156x47,0,0,9	off
+window	Dotfiles	4	:scrcpy	0	:-	658f,156x47,0,0,10	off
+window	Earable	1	:zsh	1	:*	6590,156x47,0,0,11	:
+window	Inviza	1	:firmware	0	:-	6591,156x47,0,0,12	off
+window	Inviza	2	:react native app	0	:	6592,156x47,0,0,13	off
+window	Inviza	3	:protocol	0	:	6593,156x47,0,0,14	off
+window	Inviza	4	:android-nrf-connect-device-manager	0	:	6594,156x47,0,0,15	off
+window	Inviza	5	:flutter app	0	:	6595,156x47,0,0,16	off
+window	Inviza	6	:ivr util	0	:	6596,156x47,0,0,17	off
+window	Inviza	7	:ncs-serial-modem	1	:*	6597,156x47,0,0,18	off
+state	Inviza	Crely
