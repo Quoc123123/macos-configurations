@@ -178,7 +178,7 @@ alias gh='cd ~'
 ##############################################
 alias src_zsh='source ~/.zshrc'
 alias open_zsh='code ~/.zshrc'
-alias src_tmux='tmux source-file ~/.tmux.confx'
+alias src_tmux='tmux source-file ~/.tmux.conf'
 
 alias gws='cd ~/Resources/Workspace/ && echo ${PWD}'
 alias gusr='cd /Users/quocbui'
