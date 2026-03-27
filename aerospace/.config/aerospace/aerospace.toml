@@ -186,15 +186,19 @@ if.app-id = 'dev.warp.Warp-Stable'
 run = "move-node-to-workspace T"
 
 [[on-window-detected]]
+if.app-id = 'org.python.python'
+run = "move-node-to-workspace T"
+
+[[on-window-detected]]
+if.app-id = 'com.segger.JLinkRTTViewer.V794e'
+run = "move-node-to-workspace T"
+
+[[on-window-detected]]
 if.app-id = 'com.microsoft.VSCode'
 run = "move-node-to-workspace C"
 
 [[on-window-detected]]
 if.app-id = 'com.todesktop.230313mzl4w4u92'
-run = "move-node-to-workspace C"
-
-[[on-window-detected]]
-if.app-id = 'org.python.python'
 run = "move-node-to-workspace C"
 
 
@@ -264,10 +268,6 @@ run = "move-node-to-workspace E"
 if.app-id =  'com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm' # Gmail
 run = "move-node-to-workspace E"
 
-
-[[on-window-detected]]
-if.app-id = 'com.segger.JLinkRTTViewer.V794e'
-run = "move-node-to-workspace T"
 
 [[on-window-detected]]
 if.app-id = 'net.whatsapp.WhatsApp'
