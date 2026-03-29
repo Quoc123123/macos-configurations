@@ -194,6 +194,10 @@ if.app-id = 'com.segger.JLinkRTTViewer.V794e'
 run = "move-node-to-workspace T"
 
 [[on-window-detected]]
+if.app-id = 'com.postmanlabs.mac'
+run = "move-node-to-workspace T"
+
+[[on-window-detected]]
 if.app-id = 'com.microsoft.VSCode'
 run = "move-node-to-workspace C"
 
