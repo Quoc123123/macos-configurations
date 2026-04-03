@@ -355,6 +355,10 @@ if.app-id = 'com.postmanlabs.mac'
 run = "move-node-to-workspace G"
 
 [[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.mjoklplbddabcmpepnokjaffbmgbkkgg'
+run = "move-node-to-workspace G"
+
+[[on-window-detected]]
 if.app-id = 'com.spotify.client'
 run = "move-node-to-workspace M"
 
