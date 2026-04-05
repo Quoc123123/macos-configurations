@@ -235,12 +235,7 @@ run = "move-node-to-workspace D"
 
 [[on-window-detected]]
 if.app-id = 'com.microsoft.Excel'
-run = "move-node-to-workspace D"    
-
-[[on-window-detected]]
-if.app-id = 'notion.id'
-run = "move-node-to-workspace N"
-
+run = "move-node-to-workspace D"
 
 [[on-window-detected]]
 if.app-id = 'com.foxitsoftware.FoxitReaderLite'
@@ -251,8 +246,8 @@ if.app-id = 'com.apple.Preview'
 run = "move-node-to-workspace D"
 
 [[on-window-detected]]
-if.app-id = 'com.apple.Preview'
-run = "move-node-to-workspace D"
+if.app-id = 'notion.id'
+run = "move-node-to-workspace N"
 
 [[on-window-detected]]
 if.app-id =  'com.microsoft.Outlook'
