@@ -116,10 +116,10 @@ alt-8 = 'workspace 8'
 alt-9 = 'workspace 9' 
 alt-a = 'workspace A' # Any: misc/unassigned
 alt-b = 'workspace B' # Browser: Chrome
-alt-c = 'workspace C' # Coding: VSCode, Cursor, Python
+alt-c = 'workspace C' # Coding: VSCode, Cursor, CLion, Android Studio, Qt, Python
 alt-d = 'workspace D' # Documents: Finder, Word, Excel, PowerPoint, Preview
 alt-e = 'workspace E' # Email: Outlook
-alt-g = 'workspace G' # Tools: Qt, Docker, Saleae, CLion, Android Studio, Postman, nRF Connect, MQTTX, Ozone, GitHub
+alt-g = 'workspace G' # Tools: Docker, Saleae, Postman, nRF Connect, MQTTX, Ozone, GitHub
 alt-l = 'workspace L' # Tracking: Upwork, Toggl, Clockify
 alt-m = 'workspace M' # Music: Spotify, YouTube Music
 alt-n = 'workspace N' # Notes: Notion
@@ -201,6 +201,18 @@ run = "move-node-to-workspace C"
 
 [[on-window-detected]]
 if.app-id = 'org.python.python'
+run = "move-node-to-workspace C"
+
+[[on-window-detected]]
+if.app-id = 'org.qt-project.qtcreator'
+run = "move-node-to-workspace C"
+
+[[on-window-detected]]
+if.app-id = 'com.google.android.studio'
+run = "move-node-to-workspace C"
+
+[[on-window-detected]]
+if.app-id = 'com.jetbrains.CLion'
 run = "move-node-to-workspace C"
 
 [[on-window-detected]]
@@ -305,9 +317,6 @@ if.app-id = 'com.parallels.desktop.console'
 run = "move-node-to-workspace V"
 
 
-[[on-window-detected]]
-if.app-id = 'org.qt-project.qtcreator'
-run = "move-node-to-workspace G"
 
 [[on-window-detected]]
 if.app-id = 'com.electron.dockerdesktop'
@@ -329,13 +338,7 @@ run = "move-node-to-workspace G"
 if.app-id = 'com.nordicsemi.nrfconnect'
 run = "move-node-to-workspace G"
 
-[[on-window-detected]]
-if.app-id = 'com.google.android.studio'
-run = "move-node-to-workspace G"
 
-[[on-window-detected]]
-if.app-id = 'com.jetbrains.CLion'
-run = "move-node-to-workspace G"
 
 [[on-window-detected]]
 if.app-id = 'com.electron.mqttx'
