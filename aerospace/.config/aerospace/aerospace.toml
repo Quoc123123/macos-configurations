@@ -307,6 +307,11 @@ if.app-id = 'com.google.Chrome.app.mfbcijfmgdbecnfpnfeamdedbcfcfncp' # Toggl tra
 run = "move-node-to-workspace W"
 
 [[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.nnfiakkjdmchaoopmdfimedildpikmcc' # Clockify
+run = "move-node-to-workspace W"
+
+
+[[on-window-detected]]
 if.app-id = 'com.teamviewer.TeamViewer'
 run = "move-node-to-workspace V"
 
@@ -386,11 +391,6 @@ run = "move-node-to-workspace P"
 [[on-window-detected]]
 if.app-id = 'com.anthropic.claudefordesktop'
 run = "move-node-to-workspace P"
-
-[[on-window-detected]]
-if.app-id = 'com.google.Chrome.app.nnfiakkjdmchaoopmdfimedildpikmcc' # Clockify
-run = "move-node-to-workspace P"
-
 
 [[on-window-detected]]
 if.app-id = 'com.toggl.danee'
