@@ -124,7 +124,7 @@ alt-g = 'workspace G' # Tools: Docker, Saleae, Postman, nRF Connect, MQTTX, Ozon
 alt-l = 'workspace L' # Tracking: Upwork, Toggl, Clockify
 alt-m = 'workspace M' # Music: Spotify, YouTube Music
 alt-n = 'workspace N' # Notes: Notion
-alt-p = 'workspace P' # Productivity: ChatGPT, Claude, Shortcuts
+alt-p = 'workspace P' # Productivity: ChatGPT, Claude, Gemini, Shortcuts
 alt-s = 'workspace S' # Settings: System Preferences
 alt-t = 'workspace T' # Terminal: Warp
 alt-v = 'workspace V' # Remote/VM: TeamViewer, AnyDesk, VMware Fusion, Parallels
@@ -379,6 +379,10 @@ run = "move-node-to-workspace P"
 
 [[on-window-detected]]
 if.app-id = 'com.anthropic.claudefordesktop'
+run = "move-node-to-workspace P"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.gdfaincndogidkdcdkhapmbffkckdkhn' # Google Gemini
 run = "move-node-to-workspace P"
 
 [[on-window-detected]]
