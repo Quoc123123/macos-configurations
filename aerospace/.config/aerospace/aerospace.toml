@@ -227,10 +227,6 @@ run = "move-node-to-workspace D"
 if.app-id = 'notion.id'
 run = "move-node-to-workspace N"
 
-[[on-window-detected]]
-if.app-id =  'com.cron.electron' # Notion Calendar
-run = "move-node-to-workspace N"
-
 
 [[on-window-detected]]
 if.app-id = 'com.foxitsoftware.FoxitReaderLite'
@@ -308,6 +304,11 @@ run = "move-node-to-workspace W"
 [[on-window-detected]]
 if.app-id = 'com.google.Chrome.app.nnfiakkjdmchaoopmdfimedildpikmcc' # Clockify
 run = "move-node-to-workspace W"
+
+[[on-window-detected]]
+if.app-id =  'com.cron.electron' # Notion Calendar
+run = "move-node-to-workspace W"
+
 
 
 [[on-window-detected]]
