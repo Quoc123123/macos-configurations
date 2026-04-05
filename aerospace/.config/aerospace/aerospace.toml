@@ -292,13 +292,20 @@ if.app-id =  'com.cron.electron' # Notion Calendar
 run = "move-node-to-workspace W"
 
 [[on-window-detected]]
+if.app-id = 'com.toggl.danee'
+run = "move-node-to-workspace L"
+
+[[on-window-detected]]
+if.app-id = 'coing.ClockifyDesktop'
+run = "move-node-to-workspace L"
+
+[[on-window-detected]]
 if.app-id = 'com.google.Chrome.app.mfbcijfmgdbecnfpnfeamdedbcfcfncp' # Toggl track
 run = "move-node-to-workspace L"
 
 [[on-window-detected]]
 if.app-id = 'com.google.Chrome.app.nnfiakkjdmchaoopmdfimedildpikmcc' # Clockify
 run = "move-node-to-workspace L"
-
 
 [[on-window-detected]]
 if.app-id =  'com.google.Chrome.app.ehkhpddilidkmnagompngecfcceifobk' # Upwork
@@ -372,14 +379,6 @@ run = "move-node-to-workspace P"
 [[on-window-detected]]
 if.app-id = 'com.anthropic.claudefordesktop'
 run = "move-node-to-workspace P"
-
-[[on-window-detected]]
-if.app-id = 'com.toggl.danee'
-run = "move-node-to-workspace L"
-
-[[on-window-detected]]
-if.app-id = 'coing.ClockifyDesktop'
-run = "move-node-to-workspace L"
 
 [[on-window-detected]]
 if.app-id = 'com.apple.systempreferences'
