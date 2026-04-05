@@ -300,6 +300,9 @@ run = "move-node-to-workspace W"
 if.app-id =  'com.tinyspeck.slackmacgap'
 run = "move-node-to-workspace W"
 
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.mfbcijfmgdbecnfpnfeamdedbcfcfncp' # Toggl track
+run = "move-node-to-workspace W"
 
 [[on-window-detected]]
 if.app-id = 'com.teamviewer.TeamViewer'
@@ -386,9 +389,6 @@ run = "move-node-to-workspace P"
 if.app-id = 'com.google.Chrome.app.nnfiakkjdmchaoopmdfimedildpikmcc' # Clockify
 run = "move-node-to-workspace P"
 
-[[on-window-detected]]
-if.app-id = 'com.google.Chrome.app.chpiljhfemlfpnfoohpbokdofonkiifm' # Toggl track
-run = "move-node-to-workspace P"
 
 [[on-window-detected]]
 if.app-id = 'com.toggl.danee'
