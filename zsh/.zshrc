@@ -153,6 +153,7 @@ alias gamd="git commit --amend --no-edit"
 
 alias gtemp="ga . && gcmsg 'temp' " 
 alias gtempa="ga . && gc!"
+alias gsupdate="git submodule update --init --recursive"
 
 ##############################################
 # Tmux
