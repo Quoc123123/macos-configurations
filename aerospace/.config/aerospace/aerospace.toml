@@ -237,34 +237,12 @@ if.app-id = 'com.apple.Preview'
 run = "move-node-to-workspace D"
 
 [[on-window-detected]]
-if.app-id = 'com.google.Chrome.app.aghbiahbpaijignceidepookljebhfak' # Google Drive
-run = "move-node-to-workspace D"
-
-[[on-window-detected]]
-if.app-id = 'com.google.Chrome.app.mpnpojknpmmopombnjdcgaaiekajbnjb' # Google Docs
-run = "move-node-to-workspace D"
-
-[[on-window-detected]]
-if.app-id = 'com.google.Chrome.app.fhihpiojkbmbpdjeoajapmgkhlnakfjf' # Google Sheets
-run = "move-node-to-workspace D"
-
-[[on-window-detected]]
-if.app-id = 'com.google.Chrome.app.kefjledonklijopmnomlcbpllchaibag' # Google Slides
-run = "move-node-to-workspace D"
-
-[[on-window-detected]]
 if.app-id = 'com.apple.Preview'
 run = "move-node-to-workspace D"
 
 [[on-window-detected]]
 if.app-id =  'com.microsoft.Outlook'
 run = "move-node-to-workspace E"
-
-
-[[on-window-detected]]
-if.app-id =  'com.google.Chrome.app.fmgjjmmmlfnkbppncabfkddbjimcfncm' # Gmail
-run = "move-node-to-workspace E"
-
 
 [[on-window-detected]]
 if.app-id = 'net.whatsapp.WhatsApp'
@@ -367,8 +345,9 @@ if.app-id = 'com.postmanlabs.mac'
 run = "move-node-to-workspace G"
 
 [[on-window-detected]]
-if.app-id = 'com.google.Chrome.app.mjoklplbddabcmpepnokjaffbmgbkkgg'
+if.app-id = 'com.google.Chrome.app.mjoklplbddabcmpepnokjaffbmgbkkgg' # Github
 run = "move-node-to-workspace G"
+
 
 [[on-window-detected]]
 if.app-id = 'com.spotify.client'
@@ -380,10 +359,6 @@ run = "move-node-to-workspace M"
 
 [[on-window-detected]]
 if.app-id = 'com.openai.chat'
-run = "move-node-to-workspace P"
-
-[[on-window-detected]]
-if.app-id = 'com.google.Chrome.app.gdfaincndogidkdcdkhapmbffkckdkhn'
 run = "move-node-to-workspace P"
 
 [[on-window-detected]]
@@ -400,10 +375,6 @@ run = "move-node-to-workspace P"
 
 [[on-window-detected]]
 if.app-id = 'coing.ClockifyDesktop'
-run = "move-node-to-workspace P"
-
-[[on-window-detected]]
-if.app-id =  'com.google.Chrome.app.kjbdgfilnfhdoflbpgamdcdgpehopbep' # Google Calendar
 run = "move-node-to-workspace P"
 
 [[on-window-detected]]
