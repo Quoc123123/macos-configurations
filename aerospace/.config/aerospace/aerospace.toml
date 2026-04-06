@@ -117,7 +117,7 @@ alt-9 = 'workspace 9'
 alt-a = 'workspace A' # Any: misc/unassigned
 alt-b = 'workspace B' # Browser: Chrome
 alt-c = 'workspace C' # Coding: VSCode, Cursor, CLion, Android Studio, Qt, Python
-alt-d = 'workspace D' # Documents: Finder, Word, Excel, PowerPoint, Preview, Google Drive
+alt-d = 'workspace D' # Documents: Finder, Word, Excel, PowerPoint, Preview, Google Drive, Google Docs, Google Sheets
 alt-e = 'workspace E' # Email: Outlook
 alt-i = 'workspace I' # RTT Viewer
 alt-g = 'workspace G' # Tools: Docker, Saleae, Postman, nRF Connect, MQTTX, Ozone, GitHub
@@ -247,6 +247,14 @@ run = "move-node-to-workspace D"
 
 [[on-window-detected]]
 if.app-id = 'com.google.Chrome.app.aghbiahbpaijignceidepookljebhfak' # Google Drive
+run = "move-node-to-workspace D"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.mpnpojknpmmopombnjdcgaaiekajbnjb' # Google Docs
+run = "move-node-to-workspace D"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.fhihpiojkbmbpdjeoajapmgkhlnakfjf' # Google Sheets
 run = "move-node-to-workspace D"
 
 [[on-window-detected]]
