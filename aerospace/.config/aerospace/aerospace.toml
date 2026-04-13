@@ -128,7 +128,7 @@ alt-p = 'workspace P' # Productivity: ChatGPT, Claude, Gemini, Shortcuts
 alt-s = 'workspace S' # Settings: System Preferences
 alt-t = 'workspace T' # Terminal: Warp
 alt-v = 'workspace V' # Remote/VM: TeamViewer, AnyDesk, VMware Fusion, Parallels
-alt-w = 'workspace W' # Work: Slack, Zoom, Teams, Discord, WhatsApp, Zalo, Mattermost, Notion Calendar
+alt-w = 'workspace W' # Work: Slack, Zoom, Teams, Google Meet, Discord, WhatsApp, Zalo, Mattermost, Notion Calendar
 alt-y = 'workspace Y' # YouTube
 
 # See: https://nikitabobko.github.io/AeroSpace/commands#move-node-to-workspace
@@ -298,6 +298,10 @@ run = "move-node-to-workspace W"
 
 [[on-window-detected]]
 if.app-id =  'com.tinyspeck.slackmacgap'
+run = "move-node-to-workspace W"
+
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.kjgfgldnnfoeklkmfkjfagphfepbbdan' # Google Meet
 run = "move-node-to-workspace W"
 
 [[on-window-detected]]
