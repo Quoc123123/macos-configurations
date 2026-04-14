@@ -295,6 +295,10 @@ run = "move-node-to-workspace W"
 if.app-id =  'com.microsoft.teams2'
 run = "move-node-to-workspace W"
 
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.kadndpdhfiaigidpmcgmgabmbcjnjbgn' # Microsoft Teams (PWA)
+run = "move-node-to-workspace W"
+
 
 [[on-window-detected]]
 if.app-id =  'com.tinyspeck.slackmacgap'
