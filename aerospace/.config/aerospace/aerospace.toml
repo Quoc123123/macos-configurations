@@ -418,6 +418,10 @@ if.app-id = 'com.google.Chrome.app.gdfaincndogidkdcdkhapmbffkckdkhn' # Google Ge
 run = "move-node-to-workspace P"
 
 [[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.edanbjnaiofggfmimiidpfmhggkbokck' # Google Translate
+run = "move-node-to-workspace P"
+
+[[on-window-detected]]
 if.app-id = 'com.apple.systempreferences'
 run = "move-node-to-workspace S"
 
