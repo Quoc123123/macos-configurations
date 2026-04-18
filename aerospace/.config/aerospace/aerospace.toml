@@ -388,6 +388,10 @@ run = "move-node-to-workspace G"
 if.app-id = 'com.google.Chrome.app.gnfdjbhkjmgbghlelammihlcmkihigki' # ThingsBoard Cloud
 run = "move-node-to-workspace G"
 
+[[on-window-detected]]
+if.app-id = 'com.google.Chrome.app.hemjooedkkcllkikmgjmlmebbaamhaef' # Inviza Backoffice
+run = "move-node-to-workspace G"
+
 
 [[on-window-detected]]
 if.app-id = 'com.spotify.client'
