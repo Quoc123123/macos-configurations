@@ -246,3 +246,4 @@ export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools
 export PATH="/opt/homebrew/opt/make/libexec/gnubin:$PATH"
 # Added by Antigravity
 export PATH="/Users/quocbui/.antigravity/antigravity/bin:$PATH"
+export PATH="/opt/homebrew/opt/python@3.10/libexec/bin:$PATH"
