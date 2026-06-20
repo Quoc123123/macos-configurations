@@ -175,6 +175,16 @@ alias gh='cd ~'
 
 
 ##############################################
+# Claude
+##############################################
+alias c='claude'
+alias cc='claude chat'
+alias cr='claude review'
+alias ci='claude init'
+alias cre='claude resume'
+alias cf='claude config'
+
+##############################################
 # Miscellaneous
 ##############################################
 alias src_zsh='source ~/.zshrc'
