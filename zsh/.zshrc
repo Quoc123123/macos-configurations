@@ -171,7 +171,7 @@ alias -g f=fzf
 # Preview file with bat tool
 alias fp='fzf --preview "bat --color=always {}"'
 
-alias gh='cd ~'
+alias gho='cd ~'
 
 
 ##############################################
