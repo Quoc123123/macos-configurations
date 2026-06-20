@@ -1,0 +1,33 @@
+pane	Crely	1	1	:*Z	1	192.168.1.203	:/Users/quocbui	1	zsh	:
+pane	Crely	1	1	:*Z	2	192.168.1.13	:/Users/quocbui	0	zsh	:
+pane	Crely	2	0	:-M	1	192.168.1.67	:/Users/quocbui/Resources/Workspace/Projects/Crely/my-workspace/crely-main-firmware/firmware	1	zsh	:
+pane	Crely	3	0	:	1	192.168.1.241	:/Users/quocbui	1	zsh	:
+pane	Crely	4	0	:	1	192.168.1.241	:/Users/quocbui	1	zsh	:
+pane	Crely	5	0	:	1	Quocs-MacBook-Pro.local	:/Users/quocbui	1	zsh	:
+pane	Dotfiles	1	0	:-Z	1	✳ Claude Code	:/Users/quocbui/Resources/Workspace/macos-configurations	1	node	:claude  
+pane	Dotfiles	1	0	:-Z	2	Quocs-MacBook-Pro.local	:/Users/quocbui/Resources/Workspace/macos-configurations	0	zsh	:
+pane	Dotfiles	2	0	:	1	192.168.1.125	:/Users/quocbui	1	zsh	:
+pane	Dotfiles	3	1	:*	1	192.168.1.23	:/Users/quocbui/Resources/Workspace/macos-configurations	1	zsh	:
+pane	Inviza	1	0	:-	1	✳ Claude Code	:/Users/quocbui/Resources/Workspace/Projects/Inviza/my-workspace/inviza-firmware-develop	1	node	:zsh
+pane	Inviza	2	0	:	1	192.168.1.242	:/Users/quocbui/Resources/Workspace/Projects/Inviza/my-workspace/inviza-firmware-develop/mobile/inviza	1	zsh	:
+pane	Inviza	3	0	:	1	192.168.1.13	:/Users/quocbui/Resources/Workspace/Projects/Inviza/inviza-protocols/build	1	zsh	:
+pane	Inviza	4	0	:Z	1	✳ Claude Code	:/Users/quocbui/Resources/Workspace/Projects/Inviza/my-workspace/inviza-firmware-develop/mobile/inviza_safe	0	node	:claude  
+pane	Inviza	4	0	:Z	2	Quocs-MacBook-Pro.local	:/Users/quocbui/Resources/Workspace/Projects/Inviza/my-workspace/inviza-firmware-develop/mobile/inviza_safe	1	zsh	:
+pane	Inviza	5	0	:Z	1	192.168.1.249	:/Users/quocbui/Resources/Workspace/Projects/Inviza/my-workspace/inviza-firmware-develop/tools/ivr_util	0	zsh	:
+pane	Inviza	5	0	:Z	2	Quocs-MacBook-Pro.local	:/Users/quocbui/Resources/Workspace/Projects/Inviza/my-workspace/inviza-firmware-develop/tools/ivr_scope	1	zsh	:
+pane	Inviza	6	1	:*	1	Quocs-MacBook-Pro.local	:/Users/quocbui/Resources/Workspace/Projects/Inviza/my-workspace/inviza-firmware-develop	1	zsh	:
+window	Crely	1	:build directory	1	:*Z	e210,133x47,0,0{65x47,0,0,1,67x47,66,0,2}	off
+window	Crely	2	:firmware	0	:-M	c8c0,133x47,0,0,3	off
+window	Crely	3	:algo_ml	0	:	c8c1,133x47,0,0,4	off
+window	Crely	4	:protocols	0	:	c8c2,133x47,0,0,5	off
+window	Crely	5	:tools	0	:	c8c3,133x47,0,0,6	off
+window	Dotfiles	1	:main	0	:-Z	fb4e,133x47,0,0{67x47,0,0,7,65x47,68,0,28}	off
+window	Dotfiles	2	:scrcpy	0	:	648f,133x47,0,0,10	off
+window	Dotfiles	3	:tmp	1	:*	6491,133x47,0,0,12	off
+window	Inviza	1	:inviza_fw	0	:-	6495,133x47,0,0,16	off
+window	Inviza	2	:inviza_legacy_app	0	:	6496,133x47,0,0,17	off
+window	Inviza	3	:inviza_proto	0	:	6497,133x47,0,0,18	off
+window	Inviza	4	:inviza-safe-app	0	:Z	eb81,133x47,0,0{51x47,0,0,20,81x47,52,0,26}	off
+window	Inviza	5	:inviza_ivr_scope	0	:Z	0482,133x47,0,0{66x47,0,0,21,66x47,67,0,22}	off
+window	Inviza	6	:inviza	1	:*	e498,133x47,0,0,29	off
+state	Inviza	Dotfiles
