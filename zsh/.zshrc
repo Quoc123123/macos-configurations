@@ -199,6 +199,33 @@ alias src_py='source ~/.venv/bin/activate'
 # Projects
 ##############################################
 
+# Navigation - Projects
+alias gpj='cd ~/Resources/Workspace/Projects && echo ${PWD}'
+alias ghelp='echo "
+  Navigation:
+    gho      → Home (~)
+    gws      → ~/Resources/Workspace
+    gpj      → ~/Resources/Workspace/Projects
+
+  Inviza:
+    givz     → Inviza/my-workspace
+    givzfw   → Inviza/my-workspace/inviza-firmware-develop
+    givzfl   → Inviza/FL-Inviza
+
+  Crely:
+    gcly     → Crely/my-workspace
+    gclyfl   → Crely/ITR-Crely
+"'
+
+# Inviza
+alias givz='cd ~/Resources/Workspace/Projects/Inviza/my-workspace && echo ${PWD}'
+alias givzfw='cd ~/Resources/Workspace/Projects/Inviza/my-workspace/inviza-firmware-develop && echo ${PWD}'
+alias givzfl='cd ~/Resources/Workspace/Projects/Inviza/FL-Inviza && echo ${PWD}'
+
+# Crely
+alias gcly='cd ~/Resources/Workspace/Projects/Crely/my-workspace && echo ${PWD}'
+alias gclyfl='cd ~/Resources/Workspace/Projects/Crely/ITR-Crely && echo ${PWD}'
+
 # Inviza
 alias build_rev1='ninja -C build/insole_rev1 all'
 alias build_rev2='ninja -C build/insole_rev2 all'
